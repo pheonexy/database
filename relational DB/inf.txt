@@ -1,0 +1,1 @@
+Relational Databases (RDBMS) Store data in tables with rows and columns, linked via primary and foreign keys. They ensure ACID compliance and use SQL for queries. Examples: MySQL, PostgreSQL, Oracle. Best for: Structured data with strong consistency, e.g., banking, ERP systems.
