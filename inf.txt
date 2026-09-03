@@ -1,0 +1,27 @@
+Databases are structured systems for storing, retrieving, and managing data efficiently. The right choice depends on data structure, scalability needs, and use case.
+
+Relational Databases (RDBMS) Store data in tables with rows and columns, linked via primary and foreign keys. They ensure ACID compliance and use SQL for queries. Examples: MySQL, PostgreSQL, Oracle. Best for: Structured data with strong consistency, e.g., banking, ERP systems.
+
+NoSQL Databases Non-relational, supporting document, key-value, column-family, or graph models. They offer schema flexibility and horizontal scalability. Examples: MongoDB (document), Redis (key-value), Cassandra (wide-column). Best for: Unstructured or rapidly changing data, real-time analytics, IoT.
+
+Time-Series Databases (TSDB) Optimized for timestamped data, enabling fast ingestion and time-based queries. Examples: InfluxDB, TimescaleDB, Prometheus. Best for: IoT metrics, monitoring, financial market data.
+
+Graph Databases Use nodes and edges to model complex relationships, enabling high-performance traversals. Examples: Neo4j, Amazon Neptune. Best for: Social networks, fraud detection, recommendation engines.
+
+Key-Value Databases Store data as key-value pairs for ultra-fast lookups. Examples: Redis, DynamoDB. Best for: Caching, session storage, gaming leaderboards.
+
+Document Databases Store semi-structured data as JSON/BSON documents with flexible schemas. Examples: MongoDB, CouchDB. Best for: CMS, product catalogs, user profiles.
+
+Columnar Databases Store data by columns for efficient analytical queries and compression. Examples: ClickHouse, Amazon Redshift, BigQuery. Best for: Data warehousing, BI dashboards.
+
+Object-Oriented Databases Store data as objects with attributes and methods, aligning with OOP principles. Examples: ObjectDB, db4o. Best for: Multimedia, CAD, scientific applications.
+
+NewSQL Databases Combine SQL features with NoSQL scalability, maintaining ACID guarantees. Examples: Google Cloud Spanner, CockroachDB. Best for: Large-scale transactional systems needing strong consistency.
+
+Cloud Databases Hosted on cloud platforms, offering on-demand scalability and managed services. Examples: AWS RDS, Azure SQL Database. Best for: Applications needing flexibility without on-premises infrastructure.
+
+Tip: Many modern architectures use polyglot persistence—combining multiple database types to optimize different components of an application.
+ref:
+https://www.geeksforgeeks.org/dbms/types-of-databases/
+https://estuary.dev/blog/types-of-databases-with-examples/
+https://phoenixnap.com/kb/database-types
