@@ -1,0 +1,2 @@
+NoSQL Databases Non-relational, supporting document, key-value, column-family, or graph models.
+Examples: MongoDB (document), Redis (key-value), Cassandra (wide-column). Best for: Unstructured or rapidly changing data, real-time analytics, IoT.
